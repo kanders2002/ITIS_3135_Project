@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery Page</title>
+    <meta name="description" content="ITIS 3135 Final Project">
+    <meta charset="UTF-8">
+    <script src="gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="http://malsup.github.io/jquery.cycle2.center.js"></script>
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+<!--First, in the body, I have the list for the navigation. Since this is the Gallery Page, I have the class as current (which
+will become important in CSS). Each of these are linked to the four pages. Next, I have the header which says Gallery Page. After
+that, I currently just have all of my images listed. These will be formated into a proper gallery later. Lastly, I have my
+footer.-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="current" href="gallery.html">Gallery</a></li>
+        <li><a href="application.html">Application</a></li>
+    </ul>
+    
+    <h1>Gallery Page</h1>
+
+<!--In this div, I have created the slideshow using a jQuery plugin called Cycle2. I used 5.5 Plugins (zyBooks) and
+https://jquery.malsup.com/cycle2/ as a reference for the plugin. I will note, I attempted to center the slideshow
+(using this as reference: https://jquery.malsup.com/cycle2/demo/center.php) in order to make it look nice on the page. However,
+no matter what I tried, whether through HTML or CSS, the slideshow would not center. I researched this issue and found that many
+people have experienced the same issue.-->
+<div class="cycle-slideshow"
+     data-cycle-fx="scrollHorz"
+     data-cycle-speed="1500"
+     data-cycle-timeout="2000"
+     data-cycle-center-horz=true
+     data-cycle-center-vert=true
+     >
+        
+   <img src="g1.jpg" alt="Gallery 1" class="g1">
+    <img src="g2.jpg" alt="Gallery 1" class="g2">
+    <img src="g3.jpg" alt="Gallery 1" class="g3">
+    <img src="g4.jpg" alt="Gallery 1" class="g4">
+    <img src="g5.jpg" alt="Gallery 1" class="g5">
+    <img src="g7.jpg" alt="Gallery 1" class="g7">
+    <img src="g8.jpg" alt="Gallery 1" class="g8">
+    <img src="g9.jpg" alt="Gallery 1" class="g9">
+    <img src="g10.jpg" alt="Gallery 1" class="g10">
+    <img src="g11.jpg" alt="Gallery 1" class="g11">
+    <img src="g12.jpg" alt="Gallery 1" class="g12">
+</div>
+
+    <br><br>
+    <h2>Created by Katie Anders for ITIS 3135</h2>
+</body>
+</html>

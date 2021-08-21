@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Page</title>
+    <meta name="description" content="ITIS 3135 Final Project">
+    <meta charset="UTF-8">
+    <script src="about.js"></script>
+    
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <script src="about.js"></script>
+</head>
+<body>
+<!--First, in the body, I have the list for the navigation. Since this is the About Page, I have the class as current (which
+will become important in CSS). Each of these are linked to the four pages. Next, I have the header which says About Page. After
+that, I have a detail paragraph about the camp. I have used jQuery-UI Widget known as tabs. I have used the tabs in order to
+separate the camp information into their own individual sections. Next, I have a section of the programming languages with three
+images of the language logos. Lastly, I have my footer.-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="current" href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="application.html">Application</a></li>
+        </ul>
+    <h1>About Page</h1>
+    <div id="details">
+        <p><strong>Details:</strong><br> Bit by Bit Coding Camp was created by high school 2020 senior Katie Anders. Katie wanted to reach out to students and introduce them to Computer Science. Quite often, in the STEM field, Computer Science
+        is deemed less important than Science, Engineering, and Mathematics. Through this camp, Katie hopes to introduce students to the Computer Science field and all it has to offer. Not only that but, in order to reach
+        and introduce as many students as possible, the camp is completely free.</p>
+    </div>
+    
+    <div id="tab">
+    <ul class="tabs">
+        <li><a href="#tabs-1">Location</a></li>
+        <li><a href="#tabs-2">Dates</a></li>
+        <li><a href="#tabs-3">Campers</a></li>
+        <li><a href="#tabs-4">Volunteers</a></li>
+        <li><a href="#tabs-5">Contact Info</a></li>
+    </ul> 
+    <div class="tab-content" id="tabs-1">Lifelong Learning Center at Isothermal Community College<br> 286 ICC Loop Road, Spindale, NC 28160<br>
+    </div>
+    <div class="tab-content" id="tabs-2">July 15th-18th<br>  8 AM to 12 PM</div>
+    <div class="tab-content" id="tabs-3">6th-9th Grade</div>
+    <div class="tab-content" id="tabs-4">10th-12th Grade</div>
+    <div class="tab-content" id="tabs-5">Katie Anders - katieflowerftw2002@gmail.com</div>
+    </div>
+    
+    <div class="languages">
+        <p><strong>Programming Languages:</strong></p><br>
+        <img src="javascript.png" alt="JavaScript">
+        <img src="python.png" alt="Python">
+        <img src="labview.png" alt="LabVIEW">
+        
+        <br><br>
+    </div>
+
+<br><br>
+<h2>Created by Katie Anders for ITIS 3135</h2>
+</body>
+</html>

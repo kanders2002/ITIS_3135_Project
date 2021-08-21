@@ -1,0 +1,136 @@
+/*Colors:
+ #F5F0E4 - Old Lace (Cream)
+ #282622 - Eerie Black (Dark Grey)
+ #2F4F4F - Dark Slate Grey (Green)
+ #B54E33 - Medium Carmine (Orange)
+ */
+
+/* First, I have the body for the entire base of the page. In the body, I set the background color and font family. I also
+used text align in order to center all of the information on the page.*/
+
+body {
+    background-color: #F5F0E4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/*As reference, I learned from W3Schools how to create a navigation bar (https://www.w3schools.com/css/css_navbar.asp).
+For ul, I used list-style-type, margin, padding, overflow, and background-color. list-style-type was used in order to hide the
+bullet points from appearing on the page. Setting the margin to 0 sets the navigation bar to the top of the page, rather than
+there being an awkward barrier. Padding does a similar thing, but sets the pieces of the list to the left of the page (since
+there is 0 padding). Overflow being hidden stops the navigation bar from being awkwardly mixed into the header.*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282622;
+}
+
+/*In li, all this simply does is change the list from being viewed as vertical to horizontal. In li a, we are editing the
+actual page boxes (the list). The display provides more space, due to the block element. In order to create more space for
+each individual piece listed, using padding's width and height. By using text decoration, I am able to eliminate the underline
+on the text which is caused due to it being a link to a page.*/
+
+li {
+  float: left;
+}
+
+li a {
+    display: block;
+    font-size: 18px;
+    color: #F5F0E4;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+/*Current is the class which I used for Home in HTML. For Home, I am simply changing the background color and making the font
+bold in order to specify to the user what page they are on.*/
+
+.current {
+  background-color: #B54E33;
+  font-weight: bold;
+}
+
+/*In h1, I am editing the header for the page. In the header, the two most important pieces are margin-top and padding.
+The margin-top is used to get rid of funny spacing between the navigation bar and header. The padding I have used in order
+to make the header longer in order for aesthetic purposes. The rest is just selecting the background color, font color, size,
+and centering text.*/
+
+h1 {
+    margin-top: 0;
+    padding: 35px;
+    text-align: center;
+    background: #2F4F4F;
+    color: #F5F0E4;
+    font-size: 35px;
+}
+
+/*The welcome section is the welcome paragraph. In the welcome paragraph, I have created a border in order to make a cute
+little box. I set the width of the box in order to make the paragraph box smaller. However, when changing the width, it
+affected the margin of the box. So, in order to fix the box to sit in the center instead of the left, I set the margin to
+auto. I also used line-height in order to make the paragraph easier to read for users.*/
+
+.welcome {
+    color: #F5F0E4;
+    width: 85%;
+    margin: auto;
+    border: 3px solid #2F4F4F;
+    background-color: #B54E33;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/*I simply gave the images a border, as well as a bottom margin in order to make the page cleaner. I wanted a cute little line
+between the images and information, so I created the hr tag for a line. All I simply did was specify the line's color, size,
+and that it is dashed.*/
+
+img {
+    border: 3px solid #B54E33;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 30%;
+}
+
+hr {
+    border-top: 3px dashed #B54E33;
+}
+
+/*The info section is the information paragraph. In the info paragraph, I have created a border in order to make a cute
+little box. I set the width of the box in order to make the paragraph box smaller. However, when changing the width, it
+affected the margin of the box. So, in order to fix the box to sit in the center instead of the left, I set the margin to
+auto. However, I specified the top of the margin in order to create space between the line and the info section.*/
+
+#info {
+    color: #F5F0E4;
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #B54E33;
+    background-color: darkslategrey;
+    font-size: 17.5px;
+}
+
+/*In h2, I am editing the footer for the page. In the footer, the two most important pieces are margin-bottom and padding.
+The margin-bottom is used to get rid of funny spacing between the footer and bottom of the page. The padding I have used in
+order to make the footer small in order for aesthetic purposes. The rest is just selecting the background color, font color,
+size, and setting text to the left. I also specified the font-weight to normal, since it was automatically bold.*/
+
+h2 {
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: left;
+    background: #B54E33;
+    color: #F5F0E4;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+a {
+  color: #282622;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Application Page</title>
+    <meta name="description" content="ITIS 3135 Final Project">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="application.css">
+    <script src="application.js"></script>
+</head>
+<body>
+<!--First, in the body, I have the list for the navigation. Since this is the Application Page, I have the class as current
+(which will become important in CSS). Each of these are linked to the four pages. Next, I have the header which says Application
+Page. After that, I have my form. I have h2 which is the title of the form, then a paragraph which provides information on the
+students eligible to register. Next, I have student_name, parent_name, parent_phone, and school which are all text inputs. Then
+I have student_email and parent_email which are email inputs. The grade section is, for the time being, radio types. I also have
+the submit button. Lastly, I have my footer.-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="current" href="application.html">Application</a></li>
+    </ul>
+    
+    <h1>Application Page</h1>
+    
+    <form action="submit.html" id="submit">
+        <div class="container">
+            <h2>Register for Bit by Bit Coding Camp!</h2>
+            <p>Only students between 6th and 9th grade are able to register. Please fill out the information below.</p>
+            <hr>
+            
+            <label for="student_name"><b>Student Name:</b></label><br>
+            <input type="text" placeholder="Enter Name" name="student_name" id="student_name" required><br>
+        
+            <label for="parent_name"><b>Parent Name:</b></label><br>
+            <input type="text" placeholder="Enter Name" name="parent_name" id="parent_name" required><br>
+
+            <label for="student_email"><b>Student Email:</b></label><br>
+            <input type="email" placeholder="Enter Email" name="student_email" id="student_email" required><br>
+
+            <label for="parent_email"><b>Parent Email:</b></label><br>
+            <input type="email" placeholder="Enter Email" name="parent_email" id="parent_email" required><br>
+    
+            <label for="parent_phone"><b>Parent Phone Number:</b></label><br>
+            <input type="text" placeholder="Enter Phone Number" name="parent_phone" id="parent_phone" required><br>
+    
+            <label><b>Grade:</b></label><br>
+            <input type="radio" id="sixth" name="grade" value="sixth">
+            <label for="sixth">6th</label>
+            <input type="radio" id="seventh" name="grade" value="seventh">
+            <label for="seventh">7th</label>
+            <input type="radio" id="eighth" name="grade" value="eighth">
+            <label for="eighth">8th</label>
+            <input type="radio" id="ninth" name="grade" value="ninth">
+            <label for="eighth">9th</label><br>
+    
+            <label for="school"><b>School:</b></label><br>
+            <input type="text" placeholder="Enter School" name="school" id="school" required>
+            <hr>
+            
+            <div id="submit">
+            <button type="submit" class="register" onclick="loadDoc()">Register for Camp</button>
+            </div>
+        </div>
+    </form>
+    <br><br>
+    <h3>Created by Katie Anders for ITIS 3135</h3>
+</body>
+</html>
