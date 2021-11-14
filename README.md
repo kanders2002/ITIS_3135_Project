@@ -20,8 +20,4 @@ The following are requires for all projects:
   4. Accessibility
   5. Usability and performance
 
-1. First list item
-   - First nested list item
-
-
 <img width="1440" alt="Screen Shot 2021-08-21 at 9 52 18 AM" src="https://user-images.githubusercontent.com/77994465/130323929-677c1598-8d97-4471-8be3-90cb9a64fa0d.png">
