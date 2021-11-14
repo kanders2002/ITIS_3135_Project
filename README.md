@@ -14,7 +14,7 @@ The following are requires for all projects:
    - jQuery-UI weidget and other plugins 
    - Universal accessibility 
 2. Separation of concerns 
-    a. No embedded code allowed. Separate files for HTML, CSS, and JavaScript
+   - No embedded code allowed. Separate files for HTML, CSS, and JavaScript
 3. Well-documented code
    - Appropriate use of comments
 4. Accessibility
