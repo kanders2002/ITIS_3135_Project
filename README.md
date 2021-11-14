@@ -7,7 +7,7 @@ This semester, you will design, implement, and publish an interactive web applic
 
 The following are requires for all projects:
   1. At least 4 individual web pages that must include: /
-    a. Home Page /
+    - Home Page /
     b. Navigation Bar that is consistent across the website /
     c. Header and Footer sections that are consistent across the website /
     d. AJAX functionality /
