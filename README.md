@@ -6,16 +6,16 @@ Project Description:
 This semester, you will design, implement, and publish an interactive web application that incorportates HTML, CSS, JavaScript, jQuery, and interactive elements of design. The main learning objective of the prject in this course in to experience broad and deep aspects of web application development to support a cause or interest that you care about by developing an interactive website. You will start with an idea of an interactive web application and will keep expanding and refining it throughout the semester. You will submit this project in four progressive milestone assignments. Each milestone submission will add to your final web application.
 
 The following are requires for all projects:
-  1. At least 4 individual web pages that must include:
-    a. Home Page
-    b. Navigation Bar that is consistent across the website
-    c. Header and Footer sections that are consistent across the website
-    d. AJAX functionality
-    e. jQuery-UI weidget and other plugins
-    f. Universal accessibility
-  2. Separation of concerns
+  1. At least 4 individual web pages that must include: /
+    a. Home Page /
+    b. Navigation Bar that is consistent across the website /
+    c. Header and Footer sections that are consistent across the website /
+    d. AJAX functionality /
+    e. jQuery-UI weidget and other plugins /
+    f. Universal accessibility /
+  2. Separation of concerns /
     a. No embedded code allowed. Separate files for HTML, CSS, and JavaScript
-  3. Well-documented code
+  3. Well-documented code /
     a. Appropriate use of comments
   4. Accessibility
   5. Usability and performance
